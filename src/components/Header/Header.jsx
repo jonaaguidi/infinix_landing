@@ -3,7 +3,7 @@ import "./Header.css"
 const Header = () => {
     return (
         <header id="header" className="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide bg-white">
-            <div className="container">
+            <div className="container-xl">
                 <nav className="navbar-nav-wrap">
                     <a className="navbar-brand" href="#">
                         <img className="navbar-brand-logo" src="/public/imgs/Header/logo.svg" alt="Infinix Holding Group" />

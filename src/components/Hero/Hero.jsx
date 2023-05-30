@@ -1,9 +1,20 @@
+import { useEffect } from 'react';
+import WOW from 'wowjs';
+import jarallax from 'jarallax/dist/jarallax.min.js';
+import 'jarallax/dist/jarallax.css';
 import "./Hero.css"
 
 const Hero = () => {
+  useEffect(() => {
+    new WOW.WOW({
+      live: true,
+    }).init();
+    jarallax(document.querySelectorAll('.jarallax'))
+  }, [])
+
   return (
     <section id="home" className="bg-black content-space-t-4 content-space-b-lg-0 content-space-t-lg-3">
-      <div className="container">
+      <div className="container-xl">
         <div id="scrollbg">
           <div className="row align-items-center">
             <div className="col-xl-8 col-lg-6">
