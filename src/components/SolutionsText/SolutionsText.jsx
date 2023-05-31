@@ -1,8 +1,6 @@
-import "./SolutionsText.css"
-
 const SolutionsText = () => {
     return (
-        <section className="bg-black content-space-t-1 content-space-b-2 content-space-t-lg-2 content-space-b-lg-3">
+        <section className="bg-black content-space-t-1 content-space-b-2 content-space-t-lg-2 content-space-b-lg-3 mt-8">
             <div className="container bg-black content-space-1 content-space-lg-3 px-5 px-lg-10">
                 <div className="row align-items-start">
                     <div className="col-lg-4 mb-5 mb-lg-0 text-color-light-gra">

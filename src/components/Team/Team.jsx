@@ -1,97 +1,119 @@
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 import "./Team.css"
 
+// Configuración del slider, cuanto elementos mostrar en cuestion del tamaño de la pantalla.
 
-
+const responsive = {
+  LargeDesktop: {
+    breakpoint: { max: 4000, min: 1100 },
+    items: 4
+  },
+  desktop: {
+    breakpoint: { max: 1100, min: 850 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 850, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
 
 const Team = () => {
 
+{/* Información "Hardcodeada" de los miembros del equipo */}
   const teamData = [
     {
-      name: "Nombre 1",
-      position: "Cargo 1",
-      social: "Redes 1",
-      image: "../../../public/imgs/Team/ale.png",
-    },
-    {
-      name: "Nombre 2",
-      position: "Cargo 2",
-      social: "Redes 2",
-      image: "../../../public/imgs/Team/aye.png",
-    },
-    {
-      name: "Nombre 3",
-      position: "Cargo 3",
-      social: "Redes 3",
-      image: "../../../public/imgs/Team/fer.png",
-    },
-    {
-      name: "Nombre 4",
-      position: "Cargo 4",
-      social: "Redes 4",
-      image: "../../../public/imgs/Team/hernan.png",
-    },
-    {
-      name: "Nombre 5",
-      position: "Cargo 5",
-      social: "Redes 5",
+      name: "Ivan Saroka",
+      position: "CEO Infinix Holding Group, Founder & Investor.",
+      social: "https://www.linkedin.com/in/isaroka/",
       image: "../../../public/imgs/Team/Ivan.png",
     },
     {
-      name: "Nombre 6",
-      position: "Cargo 6",
-      social: "Redes 6",
-      image: "../../../public/imgs/Team/jero.png",
+      name: "Marcos Vittorio",
+      position: "CEO InfinixSoft.",
+      social: "https://www.linkedin.com/company/1065325/",
+      image: "../../../public/imgs/Team/Vittorio.png",
     },
     {
-      name: "Nombre 7",
-      position: "Cargo 7",
-      social: "Redes 7",
-      image: "../../../public/imgs/Team/Lisiane.png",
+      name: "Hérnan Paez",
+      position: "Chief Technology Officer (CTO).",
+      social: "https://www.linkedin.com/company/1065325/",
+      image: "../../../public/imgs/Team/hernan.png",
     },
     {
-      name: "Nombre 8",
-      position: "Cargo 8",
-      social: "Redes 8",
-      image: "../../../public/imgs/Team/luis.png",
-    },
-    {
-      name: "Nombre 9",
-      position: "Cargo 9",
-      social: "Redes 9",
+      name: "Marcela Biondi",
+      position: "CFO.",
+      social: "https://www.linkedin.com/company/1065325/",
       image: "../../../public/imgs/Team/marce.png",
     },
     {
-      name: "Nombre 10",
-      position: "Cargo 10",
-      social: "Redes 10",
+      name: "Martin Gimenez",
+      position: "Head of Legal & Compliance.",
+      social: "https://www.linkedin.com/company/1065325/",
       image: "../../../public/imgs/Team/martin.png",
     },
     {
-      name: "Nombre 11",
-      position: "Cargo 11",
-      social: "Redes 11",
+      name: "Luis Paez",
+      position: "Business Development Manager.",
+      social: "https://www.linkedin.com/in/luis-santiago-paez/",
+      image: "../../../public/imgs/Team/luis.png",
+    },
+    {
+      name: "Jeronimo G. Hutton",
+      position: "Business Developer.",
+      social: "https://www.linkedin.com/in/jeronimohutton",
+      image: "../../../public/imgs/Team/jero.png",
+    },
+    {
+      name: "Tommy Sondgroth",
+      position: "Sales Manager US Market.",
+      social: "https://www.linkedin.com/in/tommy-sondgroth-b151771a4",
       image: "../../../public/imgs/Team/Tommy.png",
     },
     {
-      name: "Nombre 12",
-      position: "Cargo 12",
-      social: "Redes 12",
+      name: "Fernando Lepore",
+      position: "Commercial Manager.",
+      social: "https://www.linkedin.com/in/fernando-lepore-33125929",
+      image: "../../../public/imgs/Team/fer.png",
+    },
+    {
+      name: "Valeria Caracciolo",
+      position: "Expansion leader, EMEA.",
+      social: "https://www.linkedin.com/in/valeriacaracciolo",
       image: "../../../public/imgs/Team/vale.png",
     },
     {
-      name: "Nombre 13",
-      position: "Cargo 13",
-      social: "Redes 13",
-      image: "../../../public/imgs/Team/Vittorio.png",
+      name: "Alejandro Bustos",
+      position: "Partner solution adviser.",
+      social: "https://www.linkedin.com/in/alebustos/",
+      image: "../../../public/imgs/Team/ale.png",
+    },
+    {
+      name: "Ayelen Vignuda",
+      position: "Human Resources",
+      social: "https://www.linkedin.com/in/ayelén-vignuda-46b782132",
+      image: "../../../public/imgs/Team/aye.png",
+    },
+    {
+      name: "Lisianne Cabral De Melo",
+      position: "Partner - BRASIL.",
+      social: "https://www.linkedin.com/company/1065325/",
+      image: "../../../public/imgs/Team/Lisiane.png",
     },
   ];
-  
-  
+
+
   return (
     <div className="container-xl">
+
       {/* Title */}
       <section className="content-space-0 content-space-b-lg-1 pt-8">
-        <div className="container content-space-b-1">
+        <div className="container content-space-b-0">
           <div className="row">
             <div className="col-lg-12">
               <h1 id="team_title" className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Our <span className="selected-whitebg">Team</span></h1>
@@ -99,19 +121,44 @@ const Team = () => {
           </div>
         </div>
       </section>
-      {/* Carousel */}
-      <section className="team_card">
-        <img src="../../../public/imgs/Team/jero.png" alt="Luis" />
-        <div>
-          <h3>Luis Paez</h3>
-          <p>Business Development</p>
-          <a href="https://www.google.com" target="_blank" rel="noreferrer">
-          <img className="linkedin" src="../../../public/imgs/Icons/icons8-linkedin.svg"/>
-          </a>
-        </div>
-      </section>
-      
 
+      {/* Componente Carousel - Configuración de Props */}
+      <Carousel
+        additionalTransfrom={0}
+        arrows
+        autoPlay
+        autoPlaySpeed={3000}
+        centerMode={false}
+        className="sliderContainer"
+        containerClass="container-with-dots"
+        dotListClass=""
+        focusOnSelect={false}
+        infinite
+        itemClass=""
+        keyBoardControl
+        minimumTouchDrag={80}
+        renderButtonGroupOutside={false}
+        renderDotsOutside={false}
+        responsive={responsive}
+        showDots={true}
+        sliderClass=""
+        slidesToSlide={1}
+        swipeable
+      >
+        {/* Recorro cada Objeto del Array "teamData" */}
+        {teamData.map((member, index) => (
+          <section className="team_card" key={index}>
+            <img src={member.image} alt={member.name} />
+            <div>
+              <h3>{member.name}</h3>
+              <p>{member.position}</p>
+              <a href={member.social} target="_blank" rel="noreferrer">
+                <img className="linkedin" src="../../../public/imgs/Icons/icons8-linkedin.svg" alt="LinkedIn" />
+              </a>
+            </div>
+          </section>
+        ))}
+      </Carousel>
     </div>
   );
 };
