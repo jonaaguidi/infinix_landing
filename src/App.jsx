@@ -10,7 +10,7 @@ import Team from "./components/Team/Team"
 import SolutionsText from "./components/SolutionsText/SolutionsText"
 import Partners from "./components/Partners/Partners"
 import Footer from "./components/Footer/Footer"
-
+import CookiesModal from './components/Cookies/Cookies';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoaded(true);
-    }, 2300);
+    }, 2000);
   }, []);
 
   return (
@@ -36,6 +36,7 @@ function App() {
             <Partners />
           </main>
           <Footer />
+          <CookiesModal />
         </>
       )}
     </>
