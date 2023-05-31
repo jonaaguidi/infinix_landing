@@ -1,16 +1,27 @@
 import { useEffect } from 'react';
-import WOW from 'wowjs';
 import jarallax from 'jarallax/dist/jarallax.min.js';
 import 'jarallax/dist/jarallax.css';
 import "./About.css"
 
 const About = () => {
     useEffect(() => {
-        new WOW.WOW({
-            live: true
-        }).init();
-        jarallax(document.querySelectorAll('.jarallax'))
-    }, [])
+        jarallax(document.querySelectorAll('.jarallax'));
+    
+        const handleScroll = () => {
+          const scrollBg = document.getElementById('scrollbg2');
+          if (scrollBg) {
+            const opacity = 1 - window.scrollY / 1250;
+            scrollBg.style.opacity = opacity;
+          }
+        };
+    
+        window.addEventListener('scroll', handleScroll);
+    
+        return () => {
+          window.removeEventListener('scroll', handleScroll);
+        };
+      }, []);
+    
     return (
         <div id="about-us" className="bg-black content-space-t-1 content-space-b-2 content-space-t-lg-2 content-space-b-lg-4">
             <div className="container-xl">

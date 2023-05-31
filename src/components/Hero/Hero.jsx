@@ -1,16 +1,26 @@
 import { useEffect } from 'react';
-import WOW from 'wowjs';
 import jarallax from 'jarallax/dist/jarallax.min.js';
 import 'jarallax/dist/jarallax.css';
-import "./Hero.css"
+import './Hero.css';
 
 const Hero = () => {
   useEffect(() => {
-    new WOW.WOW({
-      live: true,
-    }).init();
-    jarallax(document.querySelectorAll('.jarallax'))
-  }, [])
+    jarallax(document.querySelectorAll('.jarallax'));
+
+    const handleScroll = () => {
+      const scrollBg = document.getElementById('scrollbg');
+      if (scrollBg) {
+        const opacity = 1 - window.scrollY / 650;
+        scrollBg.style.opacity = opacity;
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   return (
     <section id="home" className="bg-black content-space-t-4 content-space-b-lg-0 content-space-t-lg-3">
@@ -39,3 +49,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

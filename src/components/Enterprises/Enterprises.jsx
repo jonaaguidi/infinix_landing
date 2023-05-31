@@ -167,7 +167,7 @@ const Enterprises = () => {
       {/* InfinixVR/AR */}
       <section className="content-space-b-2 content-space-b-lg-3">
         <div className="container-xl">
-          <div className="row align-items-center  content-space-b-lg-3">
+          <div className="row align-items-center  content-space-b-lg-0">
             <div className="col-lg-5">
               <div className="mb-5">
                 <img 

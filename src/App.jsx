@@ -1,5 +1,7 @@
-import "./styles/vendor.min.css"
+import './styles/vendor.min.css'
 import './App.css'
+import { useEffect, useState } from 'react';
+import Preloader from './components/Preloader/Preloader.jsx';
 import Header from "./components/Header/Header"
 import Hero from "./components/Hero/Hero"
 import About from "./components/About/About"
@@ -11,20 +13,34 @@ import Footer from "./components/Footer/Footer"
 
 
 function App() {
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoaded(true);
+    }, 2300);
+  }, []);
+
   return (
     <>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Enterprises />
-        <Team />
-        <SolutionsText />
-        <Partners />
-      </main>
-      <Footer />
+      {!loaded && <Preloader />}
+      {loaded && (
+        <>
+          <Header />
+          <main>
+            <Hero />
+            <About />
+            <Enterprises />
+            <Team />
+            <SolutionsText />
+            <Partners />
+          </main>
+          <Footer />
+        </>
+      )}
     </>
   )
 }
 
-export default App
+export default App;
+
