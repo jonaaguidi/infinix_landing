@@ -44,7 +44,8 @@
 
 .team_card div .linkedin:hover{
   cursor: pointer;
-  transform: scale(1.06);
+  transition: 0.3s ease-out;  
+  transform: scale(1.1);
 }
 
 .sliderContainer{

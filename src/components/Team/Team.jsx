@@ -109,7 +109,7 @@ const Team = () => {
 
 
   return (
-    <div className="container-xl">
+    <div id="team" className="container-xl">
 
       {/* Title */}
       <section className="content-space-0 content-space-b-lg-1 pt-8">

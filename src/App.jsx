@@ -11,6 +11,7 @@ import SolutionsText from "./components/SolutionsText/SolutionsText"
 import Partners from "./components/Partners/Partners"
 import Footer from "./components/Footer/Footer"
 import CookiesModal from './components/Cookies/Cookies';
+import BackToTopButton from './components/BackToTopButton/Button';
 
 function App() {
   const [loaded, setLoaded] = useState(false);
@@ -33,10 +34,12 @@ function App() {
             <Enterprises />
             <Team />
             <SolutionsText />
-            <Partners />
+            <Partners /> 
+            
           </main>
           <Footer />
           <CookiesModal />
+          <BackToTopButton />
         </>
       )}
     </>
