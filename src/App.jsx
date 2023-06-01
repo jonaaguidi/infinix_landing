@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoaded(true);
-    }, 2000);
+    }, 2300);
   }, []);
 
   return (
@@ -35,7 +35,6 @@ function App() {
             <Team />
             <SolutionsText />
             <Partners /> 
-            
           </main>
           <Footer />
           <CookiesModal />

@@ -14,11 +14,11 @@ const responsive = {
     items: 3
   },
   tablet: {
-    breakpoint: { max: 850, min: 464 },
+    breakpoint: { max: 850, min: 590 },
     items: 2
   },
   mobile: {
-    breakpoint: { max: 464, min: 0 },
+    breakpoint: { max: 590, min: 0 },
     items: 1
   }
 };
@@ -109,7 +109,7 @@ const Team = () => {
 
 
   return (
-    <div id="team" className="container-xl">
+    <div id="team" className="container-xxxl pb-6">
 
       {/* Title */}
       <section className="content-space-0 content-space-b-lg-1 pt-8">
@@ -127,7 +127,7 @@ const Team = () => {
         additionalTransfrom={0}
         arrows
         autoPlay
-        autoPlaySpeed={3000}
+        autoPlaySpeed={3600}
         centerMode={false}
         className="sliderContainer"
         containerClass="container-with-dots"
