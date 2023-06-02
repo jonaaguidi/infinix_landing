@@ -28,7 +28,7 @@ Added functionalities and migration to ..
 - Vite
 
 
-✅ Site becomes live at GitHub Pages repository URL, `https://your-username.github.io/your-repo-name/`.
+✅ To start you just have to clone this repository (git clone), install its dependencies (npm i) and run the application (npm run dev).
 
 
 
