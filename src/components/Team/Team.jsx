@@ -1,6 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import "./Team.css"
+
+import { useEffect } from "react";
 
 // Configuración del slider, cuanto elementos mostrar en cuestion del tamaño de la pantalla.
 
@@ -24,6 +28,19 @@ const responsive = {
 };
 
 const Team = () => {
+  
+{/* Inicializo AOS para las Animaciones */}
+  const initializeAOS = () => {
+    AOS.init({
+      once: false,
+      easing: 'ease-out',
+    });
+  };
+
+  useEffect(() => {
+    initializeAOS();
+  }, []);
+
 
 {/* Información "Hardcodeada" de los miembros del equipo */}
   const teamData = [
@@ -112,7 +129,7 @@ const Team = () => {
     <div id="team" className="container-xxxl pb-6">
 
       {/* Title */}
-      <section className="content-space-0 content-space-b-lg-1 pt-8">
+      <section data-aos-delay="290" data-aos-duration="1180" data-aos="fade-up" className="content-space-0 content-space-b-lg-1 pt-8">
         <div className="container content-space-b-0">
           <div className="row">
             <div className="col-lg-12">
@@ -147,9 +164,9 @@ const Team = () => {
       >
         {/* Recorro cada Objeto del Array "teamData" */}
         {teamData.map((member, index) => (
-          <section className="team_card" key={index}>
+          <section data-aos-delay="890" data-aos-duration="1880" data-aos="fade-up" className="team_card" key={index}>
             <img src={member.image} alt={member.name} />
-            <div>
+            <div data-aos-delay="890" data-aos-duration="1680" data-aos="fade-up">
               <h3>{member.name}</h3>
               <p>{member.position}</p>
               <a href={member.social} target="_blank" rel="noreferrer">

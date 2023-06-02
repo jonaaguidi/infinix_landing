@@ -1,6 +1,15 @@
-import "./Enterprises.css"
+import { useEffect } from "react";
+import AOS from 'aos';
+import "aos/dist/aos.css";
+import 'aos/dist/aos.css';
 
 const Enterprises = () => {
+  useEffect(() => {
+    AOS.init({
+      once: false, 
+      easing: 'ease-out', 
+    });
+  }, []);
 
   return (
     <div className="container-xl" id="enterprises">
@@ -9,8 +18,7 @@ const Enterprises = () => {
         <div className="container-xl">
           <div className="row">
             <div className="col-lg-12">
-              <h1 className="wow fadeInUpSmall text-black" data-wow-duration="1s" data-wow-delay=".3s">Unlock <span
-                className="selected-whitebg">Innovative Digital Solutions:</span></h1>
+              <h1 className="text-black" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Unlock <span className="selected-whitebg">Innovative Digital Solutions:</span></h1>
             </div>
           </div>
         </div>
@@ -19,7 +27,7 @@ const Enterprises = () => {
       <section className="content-space-b-2 content-space-b-lg-3">
         <div className="container-xl">
           <div className="row align-items-center border-b-black content-space-b-lg-3">
-            <div className="col-lg-5 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+            <div className="col-lg-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
               <div className="mb-5">
                 <img src="../../../public/imgs/Enterprises/InfinixSoft/logo-soft-black.svg" alt="Infinix Soft" />
               </div>
@@ -40,9 +48,10 @@ const Enterprises = () => {
             <div className="col-lg-7 pt-8 mb-10 mb-lg-0">
               <img
                 src="../../../public/imgs/Enterprises/InfinixSoft/block-7.png"
-                className="w-xs-100 mx-auto d-block wow fadeInUpSmall"
-                data-wow-duration="1s"
-                data-wow-delay=".2s"
+                className="w-xs-100 mx-auto d-block"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400"
                 alt="Section Image"
               />
             </div>
@@ -58,19 +67,19 @@ const Enterprises = () => {
                 <img
                   src="../../../public/imgs/Enterprises/InfinixNFT/logo-ntf.svg"
                   alt="InfinixNFT"
-                  className="wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".2s"
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
                 />
               </div>
               <div className="pb-3">
-                <p className="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
+                <p className="font-300" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                   <b>Infinix NFT</b> Our team is at the forefront of the blockchain revolution, providing comprehensive
                   solutions for companies looking to integrate blockchain technology into their business. From developing
                   custom smart contracts on Ethereum to creating innovative blockchain-powered applications, our team is
                   equipped to handle any challenge.
                 </p>
-                <p className="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">
+                <p className="font-300 mb-lg-2" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                   With a deep understanding of the cryptocurrency landscape, we are committed to delivering secure and
                   reliable solutions that leverage the full potential of blockchain technology.
                 </p>
@@ -83,9 +92,10 @@ const Enterprises = () => {
               <img
                 src="../../../public/imgs/Enterprises/InfinixNFT/block-2.png"
                 alt="InfinixNFT"
-                className="w-xs-100 mx-auto d-block wow fadeInUpSmall"
-                data-wow-duration="1s"
-                data-wow-delay=".2s"
+                className="w-xs-100 mx-auto d-block"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400"
               />
             </div>
           </div>
@@ -100,30 +110,33 @@ const Enterprises = () => {
                 <img
                   src="../../../public/imgs/Enterprises/InfinixGaming/logo-gaming.svg"
                   alt="InfinixGaming"
-                  className="wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".2s" />
+                  data-aos="fade-up"
+                  data-aos-duration="1200"
+                  data-aos-delay="400"
+                />
               </div>
               <div className="pb-3">
-                <p className="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
+                <p className="font-300" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                   <b>Infinix Gaming</b> - We are passionate about creating immersive and entertaining gaming experiences. Our team of skilled
                   developers and designers work tirelessly to bring games to life, from action-packed adventures to
                   relaxing simulations.
                 </p>
-                <p className="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">With a
+                <p className="font-300 mb-lg-2" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">With a
                   commitment to excellence, we push the boundaries of what´s possible in gaming and strive to provide
                   players with unforgettable experiences that keep them coming back for more.</p>
               </div>
-              <div className="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
+              <div className="pb-10 pb-lg-0" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
                 <a className="btn-black" href="https://infinixgaming.com" target="_blank" rel="noreferrer noopener">View more</a>
               </div>
             </div>
             <div className="col-lg-7">
               <img
                 src="../../../public/imgs/Enterprises/InfinixGaming/block-gaming2.svg"
-                className="w-100 h-100 wow fadeInUpSmall"
-                data-wow-duration="1s"
-                data-wow-delay=".2s" />
+                className="w-100 h-100"
+                data-aos="fade-up"
+                data-aos-duration="1200"
+                data-aos-delay="400"
+              />
             </div>
           </div>
         </div>
@@ -137,29 +150,32 @@ const Enterprises = () => {
                 <img
                   src="../../../public/imgs/Enterprises/InfinixQA/logo-security.svg"
                   alt="Infinix QA"
-                  className="wow fadeInUp"
-                  data-wow-duration="1s"
-                  data-wow-delay=".2s" />
+                  data-aos="fade-up"
+                  data-aos-duration="1600"
+                  data-aos-delay="1000"
+                />
               </div>
               <div className="pb-3">
-                <p className="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
+                <p className="font-300" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">
                   <b>Infinix Quality Assurance</b>, Our assurance division is committed to providing our clients with reliable and top-performing products and services. With a team of skilled experts, we ensure that every project we deliver meets the highest standards of excellence.
                 </p>
-                <p className="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">
+                <p className="font-300 mb-lg-2" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">
                   At Infinix Quality Assurance, we take pride in delivering the quality and performance that our clients expect and deserve.
                 </p>
               </div>
-              <div className="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
+              <div className="pb-10 pb-lg-0" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="1000">
                 <a className="btn-black" href="https://infinixqa.com" target="_blank" rel="noopener noreferrer">View more</a>
               </div>
             </div>
             <div className="col-lg-7 order-lg-1 mb-10 mb-lg-0">
               <img
                 src="../../../public/imgs/Enterprises/InfinixQA/block-4.png"
-                className="w-xs-100 mx-auto d-block wow fadeInUpSmall"
-                data-wow-duration="1s"
-                data-wow-delay=".2s"
-                alt="Infinix Cyber Security" />
+                className="w-xs-100 mx-auto d-block"
+                data-aos="fade-up"
+                data-aos-duration="1400"
+                data-aos-delay="1000"
+                alt="Infinix Cyber Security"
+              />
             </div>
           </div>
         </div>
@@ -173,26 +189,30 @@ const Enterprises = () => {
                 <img 
                   src="../../../public/imgs/Enterprises/InfinixVR/logo-vr.svg" 
                   alt="Infinix VR/AR" 
-                  className="wow fadeInUp" 
-                  data-wow-duration="1s" 
-                  data-wow-delay=".2s" />
+                  data-aos="fade-up" 
+                  data-aos-duration="1400" 
+                  data-aos-delay="800"
+                />
               </div>
               <div className="pb-3">
-                <p className="font-300 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s">
+                <p className="font-300" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="800">
                   <b>Infinix VR & AR</b> | Our team is passionate about creating immersive experiences that transport users to new and exciting worlds. With cutting-edge VR and AR technologies, we bring our clients visions to life in ways that were once unimaginable.
                 </p>
-                <p className="font-300 mb-lg-2 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".3s">At our VR&AR creations division, we push the boundaries of what´s possible with these transformative technologies to deliver truly unique and unforgettable experiences.</p>
+                <p className="font-300 mb-lg-2" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="800">At our VR&AR creations division, we push the boundaries of what´s possible with these transformative technologies to deliver truly unique and unforgettable experiences.</p>
               </div>
-              <div className="pb-10 pb-lg-0 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".4s">
-                <a className="btn-black" href="https://infinixar.com" target="_blank" rel="noopener noreferrer">View more</a>
+              <div className="pb-10 pb-lg-0" data-aos="fade-up" data-aos-duration="1400" data-aos-delay="800">
+                <a className="btn-black" href="https://infinixvrar.com" target="_blank" rel="noopener noreferrer">View more</a>
               </div>
             </div>
-            <div className="col-lg-7 text-lg-end mb-10 mb-lg-0">
+            <div className="col-lg-7">
               <img
                 src="../../../public/imgs/Enterprises/InfinixVR/block-3.png"
-                className="w-100 mx-auto d-block wow fadeInUpSmall"
-                data-wow-duration="1s"
-                data-wow-delay=".2s" />
+                className="w-100 h-100"
+                data-aos="fade-up"
+                data-aos-duration="1400"
+                data-aos-delay="800"
+                alt="Infinix VR/AR"
+              />
             </div>
           </div>
         </div>
@@ -202,5 +222,3 @@ const Enterprises = () => {
 };
 
 export default Enterprises;
-
-

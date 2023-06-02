@@ -31,6 +31,17 @@ const Header = () => {
                             <li className="nav-item">
                                 <a className="nav-link scrollto" href="#contact">CONTACT</a>
                             </li>
+                            <li className="nav-item">
+                                <a className="navbar-brand" href="#" style={{ marginRight: '0.5rem' }}>
+                                    <img className="navbar-brand" src="../../../public/imgs/Header/united-states-of-america.png" alt="Infinix Soft" />
+                                </a>
+                                <a className="navbar-brand" href="#" style={{ marginRight: '0.5rem' }}>
+                                    <img className="navbar-brand" src="../../../public/imgs/Header/spain.png" alt="Infinix Soft" />
+                                </a>
+                                <a className="navbar-brand" href="#">
+                                    <img className="navbar-brand" src="../../../public/imgs/Header/brazil.png" alt="Infinix Soft" />
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>

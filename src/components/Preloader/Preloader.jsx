@@ -7,7 +7,7 @@ const Preloader = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Tiempo de espera simulado de 2 segundos
+    }, 2000); 
 
     return () => clearTimeout(timer);
   }, []);
