@@ -31,36 +31,5 @@ Added functionalities and migration to ..
 ✅ Site becomes live at GitHub Pages repository URL, `https://your-username.github.io/your-repo-name/`.
 
 
-## 🕒PERFORMANCE IMPROVEMENTS:
-
-📲 Original:
-
-- Lighthouse Mobile:
-<img src="../infinix_holding/public/README.md/lightHouse_mobile.png" width="440"> 
-
-- Network / Loading Time Mobile:
-<img src="../infinix_holding/public/README.md/Timetoload_mobile.png" width="440">
-
-- Lighthouse Desktop:
-<img src="../infinix_holding/public/README.md/lighthouse_desktop.png" width="440"> 
-
-- Network / Loading Time Desktop:
-<img src="../infinix_holding/public/README.md/timetoload_desktop.png" width="440">
-
-
-📲 With React + Vite:
-
-- Lighthouse Mobile:
-<img src="../infinix_holding/public/README.md/lightHouse_mobile.png" width="440"> 
-
-- Network / Loading Time Mobile:
-<img src="../infinix_holding/public/README.md/Timetoload_mobile.png" width="440">
-
-- Lighthouse Desktop:
-<img src="../infinix_holding/public/README.md/lighthouse_desktop.png" width="440"> 
-
-- Network / Loading Time Desktop:
-<img src="../infinix_holding/public/README.md/timetoload_desktop.png" width="440">
-
 
 
