@@ -16,7 +16,8 @@
     "react-icons": "^4.9.0",
     "react-multi-carousel": "^2.8.4",
     "react-router-dom": "^6.11.2",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "typed.js": "^2.0.16"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
