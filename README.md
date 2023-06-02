@@ -1,4 +1,4 @@
-# LANDING PAGE - INFINIX HOLDING
+# Landing Page - INFINIX HOLDING
 **Landing Page with animations developed with React.js using Vite and libraries**
 
 Original project technologies:
@@ -31,36 +31,35 @@ Added functionalities and migration to ..
 ✅ Site becomes live at GitHub Pages repository URL, `https://your-username.github.io/your-repo-name/`.
 
 
-
 ## 🕒PERFORMANCE IMPROVEMENTS:
 
-## 📲 Original:
+📲 Original:
 
-Lighthouse Mobile:
+- Lighthouse Mobile:
 <img src="../infinix_holding/public/README.md/lightHouse_mobile.png" width="440"> 
 
-Network / Loading Time Mobile:
+- Network / Loading Time Mobile:
 <img src="../infinix_holding/public/README.md/Timetoload_mobile.png" width="440">
 
-Lighthouse Desktop:
+- Lighthouse Desktop:
 <img src="../infinix_holding/public/README.md/lighthouse_desktop.png" width="440"> 
 
-Network / Loading Time Desktop:
+- Network / Loading Time Desktop:
 <img src="../infinix_holding/public/README.md/timetoload_desktop.png" width="440">
 
 
-## 📲 With React + Vite:
+📲 With React + Vite:
 
-Lighthouse Mobile:
+- Lighthouse Mobile:
 <img src="../infinix_holding/public/README.md/lightHouse_mobile.png" width="440"> 
 
-Network / Loading Time Mobile:
+- Network / Loading Time Mobile:
 <img src="../infinix_holding/public/README.md/Timetoload_mobile.png" width="440">
 
-Lighthouse Desktop:
+- Lighthouse Desktop:
 <img src="../infinix_holding/public/README.md/lighthouse_desktop.png" width="440"> 
 
-Network / Loading Time Desktop:
+- Network / Loading Time Desktop:
 <img src="../infinix_holding/public/README.md/timetoload_desktop.png" width="440">
 
 
