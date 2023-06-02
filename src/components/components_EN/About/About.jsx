@@ -38,7 +38,7 @@ const About = () => {
   const handleScroll = () => {
     const scrollBg = document.getElementById('scrollbg2');
     if (scrollBg) {
-      const opacity = 1 - window.scrollY / 1150;
+      const opacity = 1 - window.scrollY / 1450;
       scrollBg.style.opacity = opacity;
     }
   };

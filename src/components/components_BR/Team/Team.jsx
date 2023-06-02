@@ -126,7 +126,7 @@ const Team = () => {
 
 
   return (
-    <div id="team" className="container-xxxl pb-6">
+    <div id="team" className="container-xxxl pt-6 pb-10">
 
       {/* Title */}
       <section data-aos-delay="290" data-aos-duration="1180" data-aos="fade-up" className="content-space-0 content-space-b-lg-1 pt-8">
