@@ -2,11 +2,11 @@ import { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
-import designRush from "../../../public/imgs/Footer/design_rush.png";
-import clutch from "../../../public/imgs/Footer/clutch.png";
-import twitter_logo from "../../../public/imgs/Footer/Social/ic-twitter.svg";
-import instagram_logo from "../../../public/imgs/Footer/Social/ic-instagram.svg";
-import linkedin_logo from "../../../public/imgs/Footer/Social/ic-linkedin.svg";
+import designRush from "../../../../public/imgs/Footer/design_rush.png";
+import clutch from "../../../../public/imgs/Footer/clutch.png"
+import twitter_logo from "../../../../public/imgs/Footer/Social/ic-twitter.svg";
+import instagram_logo from "../../../../public/imgs/Footer/Social/ic-instagram.svg";
+import linkedin_logo from "../../../../public/imgs/Footer/Social/ic-linkedin.svg";
 
 
 const Footer = () => {

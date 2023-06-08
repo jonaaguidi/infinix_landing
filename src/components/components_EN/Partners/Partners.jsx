@@ -3,14 +3,14 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
-import cencosud_logo from "../../../public/imgs/Partners/cencosud.png"
-import cisco_logo from "../../../public/imgs/Partners/cisco.png"
-import ebay_logo from "../../../public/imgs/Partners/ebay.png"
-import fiberCorp_logo from "../../../public/imgs/Partners/FiberCorp.jpg"
-import infobae_logo from "../../../public/imgs/Partners/infobae.jpg"
-import sony_logo from "../../../public/imgs/Partners/sony.png"
-import mostaza_logo from "../../../public/imgs/Partners/mostaza.jpg"
-import personal_logo from "../../../public/imgs/Partners/personal.jpg"
+import cencosud_logo from "../../../../public/imgs/Partners/cencosud.png"
+import cisco_logo from "../../../../public/imgs/Partners/cisco.png"
+import ebay_logo from "../../../../public/imgs/Partners/ebay.png"
+import fiberCorp_logo from "../../../../public/imgs/Partners/FiberCorp.jpg"
+import infobae_logo from "../../../../public/imgs/Partners/infobae.jpg"
+import sony_logo from "../../../../public/imgs/Partners/sony.png"
+import mostaza_logo from "../../../../public/imgs/Partners/mostaza.jpg"
+import personal_logo from "../../../../public/imgs/Partners/personal.jpg"
 
 
 const Partners = () => {

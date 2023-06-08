@@ -4,20 +4,20 @@ import AOS from 'aos';
 import "aos/dist/aos.css";
 import 'aos/dist/aos.css';
 
-import infinixSoft_logo from "../../../public/imgs/Enterprises/InfinixSoft/logo-soft-black.svg"
-import infinixSoft_image from "../../../public/imgs/Enterprises/InfinixSoft/block-7.png"
+import infinixSoft_logo from "../../../../public/imgs/Enterprises/InfinixSoft/logo-soft-black.svg"
+import infinixSoft_image from "../../../../public/imgs/Enterprises/InfinixSoft/block-7.png"
 
-import infinixNFT_logo from "../../../public/imgs/Enterprises/InfinixNFT/logo-ntf.svg"
-import infinixNFT_image from "../../../public/imgs/Enterprises/InfinixNFT/block-2.png"
+import infinixNFT_logo from "../../../../public/imgs/Enterprises/InfinixNFT/logo-ntf.svg"
+import infinixNFT_image from "../../../../public/imgs/Enterprises/InfinixNFT/block-2.png"
 
-import infinixGaming_logo from "../../../public/imgs/Enterprises/InfinixGaming/logo-gaming.svg"
-import infinixGaming_image from "../../../public/imgs/Enterprises/InfinixGaming/block-gaming2.svg"
+import infinixGaming_logo from "../../../../public/imgs/Enterprises/InfinixGaming/logo-gaming.svg"
+import infinixGaming_image from "../../../../public/imgs/Enterprises/InfinixGaming/block-gaming2.svg"
 
-import infinixQA_logo from "../../../public/imgs/Enterprises/InfinixQA/logo-security.svg"
-import infinixQA_image from "../../../public/imgs/Enterprises/InfinixQA/block-4.png"
+import infinixQA_logo from "../../../../public/imgs/Enterprises/InfinixQA/logo-security.svg"
+import infinixQA_image from "../../../../public/imgs/Enterprises/InfinixQA/block-4.png"
 
-import infinixVR_logo from "../../../public/imgs/Enterprises/InfinixVR/logo-vr.svg" 
-import infinixVR_image from "../../../public/imgs/Enterprises/InfinixVR/block-3.png"
+import infinixVR_logo from "../../../../public/imgs/Enterprises/InfinixVR/logo-vr.svg" 
+import infinixVR_image from "../../../../public/imgs/Enterprises/InfinixVR/block-3.png"
 
 const Enterprises = () => {
   useEffect(() => {

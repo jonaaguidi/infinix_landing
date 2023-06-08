@@ -5,20 +5,20 @@ import 'aos/dist/aos.css';
 import "./Team.css"
 
 import { useEffect } from "react";
-import linkedin_logo_2 from "../../../public/imgs/Icons/icons8-linkedin.svg";
-import ivan from  "../../../public/imgs/Team/Ivan.png";
-import vitorrio from "../../../public/imgs/Team/Vittorio.png"
-import hernan from "../../../public/imgs/Team/hernan.png"
-import marce from "../../../public/imgs/Team/marce.png"
-import martin from "../../../public/imgs/Team/martin.png"
-import luis from "../../../public/imgs/Team/luis.png"
-import jero from "../../../public/imgs/Team/jero.png"
-import tommy from "../../../public/imgs/Team/Tommy.png"
-import fer from "../../../public/imgs/Team/fer.png"
-import vale from "../../../public/imgs/Team/vale.png"
-import ale from "../../../public/imgs/Team/ale.png"
-import aye from "../../../public/imgs/Team/aye.png"
-import lisiane from "../../../public/imgs/Team/Lisiane.png"
+import linkedin_logo_2 from "../../../../public/imgs/Icons/icons8-linkedin.svg";
+import ivan from  "../../../../public/imgs/Team/Ivan.png";
+import vitorrio from "../../../../public/imgs/Team/Vittorio.png"
+import hernan from "../../../../public/imgs/Team/hernan.png"
+import marce from "../../../../public/imgs/Team/marce.png"
+import martin from "../../../../public/imgs/Team/martin.png"
+import luis from "../../../../public/imgs/Team/luis.png"
+import jero from "../../../../public/imgs/Team/jero.png"
+import tommy from "../../../../public/imgs/Team/Tommy.png"
+import fer from "../../../../public/imgs/Team/fer.png"
+import vale from "../../../../public/imgs/Team/vale.png"
+import ale from "../../../../public/imgs/Team/ale.png"
+import aye from "../../../../public/imgs/Team/aye.png"
+import lisiane from "../../../../public/imgs/Team/Lisiane.png"
 
 // Configuración del slider, cuanto elementos mostrar en cuestion del tamaño de la pantalla.
 

@@ -1,8 +1,8 @@
 import "./Header.css"
-import logotype from "/public/imgs/Header/logo.svg"
-import usa_flag from "../../../public/imgs/Header/united-states-of-america.png"
-import spain_flag from "../../../public/imgs/Header/spain.png"
-import brazil_flag from "../../../public/imgs/Header/brazil.png"
+import logotype from "../../../../public/imgs/Header/logo.svg"
+import usa_flag from "../../../../public/imgs/Header/united-states-of-america.png"
+import spain_flag from "../../../../public/imgs/Header/spain.png"
+import brazil_flag from "../../../../public/imgs/Header/brazil.png"
 
 const Header = () => {
     return (
