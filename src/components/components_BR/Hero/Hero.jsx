@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Hero.css';
+import heroImg from '../../../../public/imgs/Hero/hero-img.png';
 
 const Hero = () => {
   useEffect(() => {
@@ -42,7 +43,7 @@ const Hero = () => {
             <div className="col-xl-4 col-lg-6 ms-auto">
               <div className="position-relative h-100 pb-5 pb-lg-0">
                 <div className="img-hero" data-jarallax-element="-45 0" data-disable-parallax-down="lg">
-                  <img src="../../../public/imgs/Hero/hero-img.png" alt="Hero Image" data-aos-duration="800" data-aos-delay="100" />
+                  <img src={heroImg} alt="Hero Image" data-aos-duration="800" data-aos-delay="100" />
                 </div>
               </div>
             </div>

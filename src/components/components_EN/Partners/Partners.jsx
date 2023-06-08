@@ -3,6 +3,16 @@ import AOS from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 
+import cencosud_logo from "../../../public/imgs/Partners/cencosud.png"
+import cisco_logo from "../../../public/imgs/Partners/cisco.png"
+import ebay_logo from "../../../public/imgs/Partners/ebay.png"
+import fiberCorp_logo from "../../../public/imgs/Partners/FiberCorp.jpg"
+import infobae_logo from "../../../public/imgs/Partners/infobae.jpg"
+import sony_logo from "../../../public/imgs/Partners/sony.png"
+import mostaza_logo from "../../../public/imgs/Partners/mostaza.jpg"
+import personal_logo from "../../../public/imgs/Partners/personal.jpg"
+
+
 const Partners = () => {
     
     {/* Inicializo AOS para las Animaciones */ }
@@ -30,42 +40,42 @@ const Partners = () => {
                 <div className="row row-cols-2 row-cols-md-3 row-cols-lg-4 align-items-center">
                     <div className="col mb-5">
                         <div className="mb-4 text-center" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
-                            <img src="../../../public/imgs/Partners/cencosud.png" className="w-50" alt="" />
+                            <img src={cencosud_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/cisco.png" className="w-50" alt="" />
+                            <img src={cisco_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/ebay.png" className="w-50" alt="" />
+                            <img src={ebay_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/FiberCorp.jpg" className="w-50" alt="" />
+                            <img src={fiberCorp_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/infobae.jpg" className="w-50" alt="" />
+                            <img src={infobae_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/sony.png" className="w-50" alt="" />
+                            <img src={sony_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/mostaza.jpg" className="w-50" alt="" />
+                            <img src={mostaza_logo} className="w-50" alt="" />
                         </div>
                     </div>
                     <div className="col mb-5" data-aos-delay="390" data-aos-duration="1280" data-aos="fade-up">
                         <div className="mb-4 text-center">
-                            <img src="../../../public/imgs/Partners/personal.jpg" className="w-50" alt="" />
+                            <img src={personal_logo} className="w-50" alt="" />
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,20 @@ import 'aos/dist/aos.css';
 import "./Team.css"
 
 import { useEffect } from "react";
+import linkedin_logo_2 from "../../../public/imgs/Icons/icons8-linkedin.svg";
+import ivan from  "../../../public/imgs/Team/Ivan.png";
+import vitorrio from "../../../public/imgs/Team/Vittorio.png"
+import hernan from "../../../public/imgs/Team/hernan.png"
+import marce from "../../../public/imgs/Team/marce.png"
+import martin from "../../../public/imgs/Team/martin.png"
+import luis from "../../../public/imgs/Team/luis.png"
+import jero from "../../../public/imgs/Team/jero.png"
+import tommy from "../../../public/imgs/Team/Tommy.png"
+import fer from "../../../public/imgs/Team/fer.png"
+import vale from "../../../public/imgs/Team/vale.png"
+import ale from "../../../public/imgs/Team/ale.png"
+import aye from "../../../public/imgs/Team/aye.png"
+import lisiane from "../../../public/imgs/Team/Lisiane.png"
 
 // Configuración del slider, cuanto elementos mostrar en cuestion del tamaño de la pantalla.
 
@@ -48,79 +62,79 @@ const Team = () => {
       name: "Ivan Saroka",
       position: "CEO Infinix Holding Group, Founder & Investor.",
       social: "https://www.linkedin.com/in/isaroka/",
-      image: "../../../public/imgs/Team/Ivan.png",
+      image: ivan,
     },
     {
       name: "Marcos Vittorio",
       position: "CEO InfinixSoft.",
       social: "https://www.linkedin.com/company/1065325/",
-      image: "../../../public/imgs/Team/Vittorio.png",
+      image: vitorrio,
     },
     {
       name: "Hérnan Paez",
       position: "Chief Technology Officer (CTO).",
       social: "https://www.linkedin.com/company/1065325/",
-      image: "../../../public/imgs/Team/hernan.png",
+      image: hernan,
     },
     {
       name: "Marcela Biondi",
       position: "CFO.",
       social: "https://www.linkedin.com/company/1065325/",
-      image: "../../../public/imgs/Team/marce.png",
+      image: marce,
     },
     {
       name: "Martin Gimenez",
       position: "Head of Legal & Compliance.",
       social: "https://www.linkedin.com/company/1065325/",
-      image: "../../../public/imgs/Team/martin.png",
+      image: martin,
     },
     {
       name: "Luis Paez",
       position: "Business Development Manager.",
       social: "https://www.linkedin.com/in/luis-santiago-paez/",
-      image: "../../../public/imgs/Team/luis.png",
+      image: luis,
     },
     {
       name: "Jeronimo G. Hutton",
       position: "Business Developer.",
       social: "https://www.linkedin.com/in/jeronimohutton",
-      image: "../../../public/imgs/Team/jero.png",
+      image: jero,
     },
     {
       name: "Tommy Sondgroth",
       position: "Sales Manager US Market.",
       social: "https://www.linkedin.com/in/tommy-sondgroth-b151771a4",
-      image: "../../../public/imgs/Team/Tommy.png",
+      image: tommy,
     },
     {
       name: "Fernando Lepore",
       position: "Commercial Manager.",
       social: "https://www.linkedin.com/in/fernando-lepore-33125929",
-      image: "../../../public/imgs/Team/fer.png",
+      image: fer,
     },
     {
       name: "Valeria Caracciolo",
       position: "Expansion leader, EMEA.",
       social: "https://www.linkedin.com/in/valeriacaracciolo",
-      image: "../../../public/imgs/Team/vale.png",
+      image: vale,
     },
     {
       name: "Alejandro Bustos",
       position: "Partner solution adviser.",
       social: "https://www.linkedin.com/in/alebustos/",
-      image: "../../../public/imgs/Team/ale.png",
+      image: ale,
     },
     {
       name: "Ayelen Vignuda",
       position: "Human Resources",
       social: "https://www.linkedin.com/in/ayelén-vignuda-46b782132",
-      image: "../../../public/imgs/Team/aye.png",
+      image: aye,
     },
     {
       name: "Lisianne Cabral De Melo",
       position: "Partner - BRASIL.",
       social: "https://www.linkedin.com/company/1065325/",
-      image: "../../../public/imgs/Team/Lisiane.png",
+      image: lisiane,
     },
   ];
 
@@ -133,7 +147,7 @@ const Team = () => {
         <div className="container content-space-b-0">
           <div className="row">
             <div className="col-lg-12">
-              <h1 id="team_title" className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Our <span className="selected-whitebg">Team</span></h1>
+              <h1 id="team_title" className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Nuestro <span className="selected-whitebg">Equipo de Profesionales</span></h1>
             </div>
           </div>
         </div>
@@ -170,7 +184,7 @@ const Team = () => {
               <h3>{member.name}</h3>
               <p>{member.position}</p>
               <a href={member.social} target="_blank" rel="noreferrer">
-                <img className="linkedin" src="../../../public/imgs/Icons/icons8-linkedin.svg" alt="LinkedIn" />
+                <img className="linkedin" src={linkedin_logo_2} alt="LinkedIn" />
               </a>
             </div>
           </section>

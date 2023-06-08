@@ -2,6 +2,13 @@ import { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
+import designRush from "../../../public/imgs/Footer/design_rush.png";
+import clutch from "../../../public/imgs/Footer/clutch.png";
+import twitter_logo from "../../../public/imgs/Footer/Social/ic-twitter.svg";
+import instagram_logo from "../../../public/imgs/Footer/Social/ic-instagram.svg";
+import linkedin_logo from "../../../public/imgs/Footer/Social/ic-linkedin.svg";
+
+
 const Footer = () => {
 
     {/* Inicializo AOS para las Animaciones */ }
@@ -90,12 +97,12 @@ const Footer = () => {
                         <ul className="list-unstyled list-py-1 mb-0  prensa" data-aos-delay="100" data-aos-duration="1000" data-aos="fade-in">
                             <li className="text-center">
                                 <a href="https://www.designrush.com/agency/profile/infinixsoft" target="_blank" rel="noreferrer noopener">
-                                    <img src="../../../public/imgs/Footer/design_rush.png" alt="Design Rush" width="60" />
+                                    <img src={designRush} alt="Design Rush" width="60" />
                                 </a>
                             </li>
                             <li className="text-center" style={{ paddingTop: '2rem', marginTop: '0 !important' }}>
                                 <a href="https://clutch.co/profile/infinixsoft#reviews" target="_blank" rel="noreferrer noopener">
-                                    <img src="../../../public/imgs/Footer/clutch.png" alt="Clutch" width="120" />
+                                    <img src={clutch} alt="Clutch" width="120" />
                                 </a>
                             </li>
                         </ul>
@@ -104,17 +111,17 @@ const Footer = () => {
                         <ul className="list-inline mb-0">
                             <li className="list-inline-item" data-aos-delay="500" data-aos-duration="1000" data-aos="fade-in">
                                 <a className="btn btn-sm btn-icon" href="https://www.twitter.com/Infinixsoft/" target="_blank" rel="noreferrer noopener">
-                                    <img src="../../../public/imgs/Footer/Social/ic-twitter.svg" alt="Twitter" />
+                                    <img src={twitter_logo} alt="Twitter" />
                                 </a>
                             </li>
                             <li className="list-inline-item" data-aos-delay="600" data-aos-duration="1200" data-aos="fade-in">
                                 <a className="btn btn-sm btn-icon" href="https://www.instagram.com/infinixsoft_ok/" target="_blank" rel="noreferrer noopener">
-                                    <img src="../../../public/imgs/Footer/Social/ic-instagram.svg" alt="Instagram" />
+                                    <img src={instagram_logo} alt="Instagram" />
                                 </a>
                             </li>
                             <li className="list-inline-item" data-aos-delay="700" data-aos-duration="1200" data-aos="fade-in">
                                 <a className="btn btn-sm btn-icon" href="https://www.linkedin.com/company/1065325/" target="_blank" rel="noreferrer noopener">
-                                    <img src="../../../public/imgs/Footer/Social/ic-linkedin.svg" alt="LinkedIn" />
+                                    <img src={linkedin_logo} alt="LinkedIn" />
                                 </a>
                             </li>
                         </ul>

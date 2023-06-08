@@ -1,7 +1,23 @@
 import { useEffect } from "react";
+
 import AOS from 'aos';
 import "aos/dist/aos.css";
 import 'aos/dist/aos.css';
+
+import infinixSoft_logo from "../../../public/imgs/Enterprises/InfinixSoft/logo-soft-black.svg"
+import infinixSoft_image from "../../../public/imgs/Enterprises/InfinixSoft/block-7.png"
+
+import infinixNFT_logo from "../../../public/imgs/Enterprises/InfinixNFT/logo-ntf.svg"
+import infinixNFT_image from "../../../public/imgs/Enterprises/InfinixNFT/block-2.png"
+
+import infinixGaming_logo from "../../../public/imgs/Enterprises/InfinixGaming/logo-gaming.svg"
+import infinixGaming_image from "../../../public/imgs/Enterprises/InfinixGaming/block-gaming2.svg"
+
+import infinixQA_logo from "../../../public/imgs/Enterprises/InfinixQA/logo-security.svg"
+import infinixQA_image from "../../../public/imgs/Enterprises/InfinixQA/block-4.png"
+
+import infinixVR_logo from "../../../public/imgs/Enterprises/InfinixVR/logo-vr.svg" 
+import infinixVR_image from "../../../public/imgs/Enterprises/InfinixVR/block-3.png"
 
 const Enterprises = () => {
   useEffect(() => {
@@ -29,7 +45,7 @@ const Enterprises = () => {
           <div className="row align-items-center border-b-black content-space-b-lg-3">
             <div className="col-lg-5" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="400">
               <div className="mb-5">
-                <img src="../../../public/imgs/Enterprises/InfinixSoft/logo-soft-black.svg" alt="Infinix Soft" />
+                <img src={infinixSoft_logo} alt="Infinix Soft" />
               </div>
               <div className="pb-3">
                 <p className="font-300">
@@ -45,7 +61,7 @@ const Enterprises = () => {
             </div>
             <div className="col-lg-7 pt-8 mb-10 mb-lg-0">
               <img
-                src="../../../public/imgs/Enterprises/InfinixSoft/block-7.png"
+                src={infinixSoft_image}
                 className="w-xs-100 mx-auto d-block"
                 data-aos="fade-up"
                 data-aos-duration="1200"
@@ -63,7 +79,7 @@ const Enterprises = () => {
             <div className="col-lg-5 order-lg-2">
               <div className="mb-5">
                 <img
-                  src="../../../public/imgs/Enterprises/InfinixNFT/logo-ntf.svg"
+                  src={infinixNFT_logo}
                   alt="InfinixNFT"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -85,7 +101,7 @@ const Enterprises = () => {
             </div>
             <div className="col-lg-7 order-lg-1 pt-8 mb-10 mb-lg-0">
               <img
-                src="../../../public/imgs/Enterprises/InfinixNFT/block-2.png"
+                src={infinixNFT_image}
                 alt="InfinixNFT"
                 className="w-xs-100 mx-auto d-block"
                 data-aos="fade-up"
@@ -103,7 +119,7 @@ const Enterprises = () => {
             <div className="col-lg-5">
               <div className="mb-5">
                 <img
-                  src="../../../public/imgs/Enterprises/InfinixGaming/logo-gaming.svg"
+                  src={infinixGaming_logo}
                   alt="InfinixGaming"
                   data-aos="fade-up"
                   data-aos-duration="1200"
@@ -126,7 +142,7 @@ const Enterprises = () => {
             </div>
             <div className="col-lg-7">
               <img
-                src="../../../public/imgs/Enterprises/InfinixGaming/block-gaming2.svg"
+                src={infinixGaming_image}
                 className="w-100 h-100"
                 data-aos="fade-up"
                 data-aos-duration="1200"
@@ -143,7 +159,7 @@ const Enterprises = () => {
             <div className="col-lg-5 order-lg-2">
               <div className="mb-5">
                 <img
-                  src="../../../public/imgs/Enterprises/InfinixQA/logo-security.svg"
+                  src={infinixQA_logo}
                   alt="Infinix QA"
                   data-aos="fade-up"
                   data-aos-duration="1600"
@@ -164,7 +180,7 @@ const Enterprises = () => {
             </div>
             <div className="col-lg-7 order-lg-1 mb-10 mb-lg-0">
               <img
-                src="../../../public/imgs/Enterprises/InfinixQA/block-4.png"
+                src={infinixQA_image}
                 className="w-xs-100 mx-auto d-block"
                 data-aos="fade-up"
                 data-aos-duration="1400"
@@ -182,7 +198,7 @@ const Enterprises = () => {
             <div className="col-lg-5">
               <div className="mb-5">
                 <img
-                  src="../../../public/imgs/Enterprises/InfinixVR/logo-vr.svg"
+                  src={infinixVR_logo}
                   alt="Infinix VR/AR"
                   data-aos="fade-up"
                   data-aos-duration="1400"
@@ -201,7 +217,7 @@ const Enterprises = () => {
             </div>
             <div className="col-lg-7">
               <img
-                src="../../../public/imgs/Enterprises/InfinixVR/block-3.png"
+                src={infinixVR_image}
                 className="w-100 h-100"
                 data-aos="fade-up"
                 data-aos-duration="1400"

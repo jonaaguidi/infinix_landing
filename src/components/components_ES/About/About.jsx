@@ -22,11 +22,11 @@ const About = () => {
         "Hagamos realidad tu producto..."
       ],
       typeSpeed: 40, // Velocidad de escritura
-      backSpeed: 30, // Velocidad de borrado
+      backSpeed: 40, // Velocidad de borrado
       loop: true, // Repetir infinitamente
       loopCount: Infinity, // Número de repeticiones infinitas
       showCursor: false, // Ocultar el cursor de escritura
-      backDelay: 2000, // Retraso antes de iniciar el borrado
+      backDelay: 1000, // Retraso antes de iniciar el borrado
       startDelay: 1000, // Retraso antes de iniciar la escritura
     });
 
