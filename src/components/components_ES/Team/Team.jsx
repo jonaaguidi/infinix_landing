@@ -5,7 +5,7 @@ import 'aos/dist/aos.css';
 import "./Team.css"
 
 import { useEffect } from "react";
-import linkedin_logo_2 from "../../../../public/imgs/Icons/icons8-linkedin.svg";
+import linkedin_logo_2 from "../../../../public/imgs/Icons/icons8-linkedin.svg"
 import ivan from  "../../../../public/imgs/Team/Ivan.png";
 import vitorrio from "../../../../public/imgs/Team/Vittorio.png"
 import hernan from "../../../../public/imgs/Team/hernan.png"
