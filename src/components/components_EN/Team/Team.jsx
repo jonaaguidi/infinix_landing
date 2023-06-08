@@ -147,7 +147,7 @@ const Team = () => {
         <div className="container content-space-b-0">
           <div className="row">
             <div className="col-lg-12">
-              <h1 id="team_title" className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Nuestro <span className="selected-whitebg">Equipo de Profesionales</span></h1>
+              <h1 id="team_title" className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Our <span className="selected-whitebg">Team</span></h1>
             </div>
           </div>
         </div>

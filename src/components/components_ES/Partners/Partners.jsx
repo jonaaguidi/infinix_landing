@@ -32,7 +32,7 @@ const Partners = () => {
             <div className="container content-space-b-2">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h1 className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Trusted by <span className="selected-whitebg">Industry Leaders</span>: <br />Partners and Clients</h1>
+                        <h1 className="title-bold-1 infinix-title-black text-center mb-lg-5 wow fadeInUpSmall" data-wow-duration="1s" data-wow-delay=".2s"> Con la confianza de <span className="selected-whitebg">Líderes de la industria</span>: <br />Socios y clientes</h1>
                     </div>
                 </div>
             </div>
